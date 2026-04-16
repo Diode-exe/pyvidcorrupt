@@ -73,7 +73,6 @@ class VideoMod:
 
         return self._write_output(modified_video, "shifted", "Shifted video saved")
 
-
 def run_iterations(
     video_path="video.mp4",
     iterations=250,
