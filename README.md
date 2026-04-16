@@ -32,3 +32,7 @@ run_iterations("video.mp4", iterations=10, mode="random")
 - `--mode shift` applies left or right bit shifting to random byte positions.
 - `--mode random` replaces random byte positions with random byte values.
 - `--chain` uses each generated output as the next iteration's input.
+
+## Disclaimer
+
+WARNING: This tool performs raw binary manipulation. It is designed to intentionally corrupt files. Always keep backups of your original clips, and be mindful of high volume when playing back corrupted audio.
