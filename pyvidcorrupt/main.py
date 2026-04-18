@@ -78,7 +78,7 @@ def run_iterations(
     iterations=250,
     mode="shift",
     chain=False,
-    bit_flip_count=1000,
+    bit_flip_count=250,
     output_dir="output",
 ):
     """Run the selected corruption mode repeatedly."""
