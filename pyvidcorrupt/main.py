@@ -116,7 +116,7 @@ def build_parser():
     parser.add_argument(
         "--bit-flip-count",
         type=int,
-        default=1000,
+        default=250,
         help="Number of random byte positions to modify per output",
     )
     parser.add_argument(
